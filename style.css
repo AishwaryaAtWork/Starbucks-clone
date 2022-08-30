@@ -42,6 +42,10 @@ li a{
     margin-right: 40px;
     text-decoration: none;
 }
+li a:hover{
+    color: #017143;
+    font-weight: 700;
+}
 .content{
     position: relative;
     width: 100%;
@@ -63,6 +67,7 @@ h2 span{
     color: #017143;
     font-size: 1.2em;
     font-weight: 900;
+    cursor: pointer;
 }
 .txtBox a{
     display: inline-block;
@@ -74,6 +79,7 @@ h2 span{
     border-radius: 40px;
     letter-spacing: 1px;
     text-decoration: none;
+    cursor: pointer;
 }
 .imgBox{
     width: 600px;
