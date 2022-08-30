@@ -42,3 +42,45 @@ li a{
     margin-right: 40px;
     text-decoration: none;
 }
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txtBox{
+    position: relative;
+    max-width: 600px;
+}
+h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.txtBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.imgBox{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+    
+}
